@@ -1,0 +1,11 @@
+D:\VisualStudioCalisma\CleanCodePrinciples\CleanCodePrinciples\bin\Debug\netcoreapp3.1\CleanCodePrinciples.exe
+D:\VisualStudioCalisma\CleanCodePrinciples\CleanCodePrinciples\bin\Debug\netcoreapp3.1\CleanCodePrinciples.deps.json
+D:\VisualStudioCalisma\CleanCodePrinciples\CleanCodePrinciples\bin\Debug\netcoreapp3.1\CleanCodePrinciples.runtimeconfig.json
+D:\VisualStudioCalisma\CleanCodePrinciples\CleanCodePrinciples\bin\Debug\netcoreapp3.1\CleanCodePrinciples.runtimeconfig.dev.json
+D:\VisualStudioCalisma\CleanCodePrinciples\CleanCodePrinciples\bin\Debug\netcoreapp3.1\CleanCodePrinciples.dll
+D:\VisualStudioCalisma\CleanCodePrinciples\CleanCodePrinciples\bin\Debug\netcoreapp3.1\CleanCodePrinciples.pdb
+D:\VisualStudioCalisma\CleanCodePrinciples\CleanCodePrinciples\obj\Debug\netcoreapp3.1\CleanCodePrinciples.csprojAssemblyReference.cache
+D:\VisualStudioCalisma\CleanCodePrinciples\CleanCodePrinciples\obj\Debug\netcoreapp3.1\CleanCodePrinciples.AssemblyInfoInputs.cache
+D:\VisualStudioCalisma\CleanCodePrinciples\CleanCodePrinciples\obj\Debug\netcoreapp3.1\CleanCodePrinciples.AssemblyInfo.cs
+D:\VisualStudioCalisma\CleanCodePrinciples\CleanCodePrinciples\obj\Debug\netcoreapp3.1\CleanCodePrinciples.dll
+D:\VisualStudioCalisma\CleanCodePrinciples\CleanCodePrinciples\obj\Debug\netcoreapp3.1\CleanCodePrinciples.pdb

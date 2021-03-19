@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main">
+        <h1>THE TO-DO LIST</h1>
+        <div style="border: 5px dotted black; width:800px; height: 500px; margin-left: 350px;">
+        <form action="" id="add-task">
+          <div style="margin-top: 30px;">
+            <label for="todo" style="margin-left: 200px; font-size: 25px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Add Task:</label>
+            <input type="text" id="todo" style="height: 40px;" placeholder="Add Task.."><button>Add Task</button>
+          </div>   
+        </form>
+        
+        <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; margin-left: 10px;">To complete task, click on text.</p>            
+        <ul id="task-list" style="list-style:decimal;">
+            <li class="task-complete">ExampleTask<button>Remove Task</button></li>           
+        </ul>
+      </div> 
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+2021-02-16 13:40:36.788 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-02-16 13:40:36.816 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1 }] Request starting HTTP/2.0 GET https://localhost:44314/weatherforecast  
+2021-02-16 13:40:36.858 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-02-16 13:40:36.859 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "D:\VisualStudioCalisma\MiddlewareExceptionLog\MiddlewareExceptionLog"
+2021-02-16 13:40:36.885 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"MiddlewareExceptionLog.Controllers.WeatherForecastController.Get (MiddlewareExceptionLog)"'
+2021-02-16 13:40:36.954 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "Int32 Get(Int32)" on controller "MiddlewareExceptionLog.Controllers.WeatherForecastController" ("MiddlewareExceptionLog").
+2021-02-16 13:40:37.104 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 1, Name: "ActionMethodExecuting" }] Executing action method "MiddlewareExceptionLog.Controllers.WeatherForecastController.Get (MiddlewareExceptionLog)" - Validation state: Valid
+2021-02-16 13:40:41.777 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "MiddlewareExceptionLog.Controllers.WeatherForecastController.Get (MiddlewareExceptionLog)" in 4817.5366ms
+2021-02-16 13:40:41.779 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"MiddlewareExceptionLog.Controllers.WeatherForecastController.Get (MiddlewareExceptionLog)"'
+2021-02-16 13:40:41.936 +03:00 [Error] [MiddlewareExceptionLog.Middlewares.GlobalExceptionMiddleware] [] 13:40:41 : System.DivideByZeroException: Attempted to divide by zero.
+   at MiddlewareExceptionLog.Controllers.WeatherForecastController.Get(Int32 a) in D:\VisualStudioCalisma\MiddlewareExceptionLog\MiddlewareExceptionLog\Controllers\WeatherForecastController.cs:line 30
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at MiddlewareExceptionLog.Middlewares.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in D:\VisualStudioCalisma\MiddlewareExceptionLog\MiddlewareExceptionLog\Middlewares\GlobalExceptionMiddleware.cs:line 26
+2021-02-16 13:40:41.944 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2 }] Request finished in 5130.7665ms 200 
+2021-02-16 13:40:42.095 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1 }] Request starting HTTP/2.0 GET https://localhost:44314/favicon.ico  
+2021-02-16 13:40:42.097 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2 }] Request finished in 2.5651ms 404 
